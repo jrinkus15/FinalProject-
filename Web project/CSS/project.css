@@ -1,0 +1,187 @@
+#main_body {
+  color:blue;
+}
+
+ table{
+  border:1px solid blue;
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid blue;
+  padding: 1em .5em;
+  text-align: center;
+  color: black;
+}
+
+#header_color {
+  background-color: #76D7C4;
+}
+
+#header_weight{
+  color: blue;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#image{
+  display: block;
+  margin:auto;
+}
+
+.cp_image{
+  width: 100px;
+  height: auto;
+}
+
+#menu_list{
+  background-color: #76D7C4;
+}
+
+
+#nav_list ul {
+  list-style-type: none;
+  margin-left: .5em;
+  margin-bottom: 1.5em;
+}
+
+#nav_list ul li {
+  width: 150px;
+  margin-bottom: .5em;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+#nav_list ul li a {
+  display:block;
+  padding: .5em;
+  text-decoration: none;
+  font-weight: none;
+  font-weight: bold;
+  color: black;
+  background-color: #76D7C4;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover {
+  font-size: 125%;
+}
+
+#main{
+  background-color: #9f9fcf;
+}
+
+
+#dir_body{
+  background-color: #9f9fcf;
+}
+
+#secondtable{
+  text-align: center;
+  font-size: 1.5em;
+  color: blue;
+  clear:right;
+}
+
+#selection_picture{
+  display: block;
+  margin:auto;
+  float: right;
+}
+
+.selection{
+  width: 100px;
+  height: auto;
+}
+
+section img {
+  width= 100%;
+  max-width: 400px;
+  margin-bottom: .5em;
+}
+
+#table_head{
+  width:100%;
+  height:100%;
+}
+
+#whole {
+  background-color: #76D7C4;
+}
+
+#help{
+  background-color: #9f9fcf;
+}
+
+#websites{
+  font-size: 1.5em;
+}
+#checkout{
+  background-color: #9f9fcf;
+  text-align: center;
+}
+
+#specifications{
+  display: inline-block;
+  width: 70%;
+  height: 100px;
+  text-align: center;
+}
+
+.new {
+  font-size: 2em;
+}
+
+.slideIn {
+  animation-duration: 4s;
+  animation-name: slideIn;
+  font-size: 1.5em;
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fill:hover
+{
+    box-shadow: inset 0 0 0 25px red;
+}
+
+.fade{
+  opacity: 0.25;
+  font-size: 1em;
+}
+
+.fade:hover{
+  opacity:2;
+}
+
+.help {
+  font-size: 1.5em;
+}
+
+.helpsection{
+  color: red;
+  size: 2.5em;
+  font-weight: 600;
+}
